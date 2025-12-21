@@ -76,9 +76,10 @@ sudo usermod -aG sudo adminuser
 groups adminuser
 
 #Evidence
-<img width="1665" height="851" alt="wke4" src="https://github.com/user-attachments/assets/f3ba87d3-0596-4ec8-9c74-f875c94c40b9" />
-<img width="1561" height="861" alt="w4" src="https://github.com/user-attachments/assets/19737b9f-66af-4eab-ac8b-c61bca9f8590" />
-<img width="1423" height="816" alt="wk 4" src="https://github.com/user-attachments/assets/f50ad7c3-cecb-4deb-aa87-1f9519d9d046" />
+<img width="1423" height="816" alt="wk 4" src="https://github.com/user-attachments/assets/88c9dede-7f14-456a-9f9b-c5cd9ba7547e" />
+<img width="1561" height="861" alt="w4" src="https://github.com/user-attachments/assets/54bc9ff2-7b68-45b1-9bdc-2c046fddb39d" />
+<img width="1665" height="851" alt="wke4" src="https://github.com/user-attachments/assets/4bf34e5f-af09-451f-9b24-ba6166683348" />
+
 
 
 
