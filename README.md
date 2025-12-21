@@ -13,5 +13,30 @@
 - OpenSSH server on ubuntu server was installed and enabled
 
 #Evidence
-<img width="1274" height="801" alt="server ssh running" src="https://github.com/user-attachments/assets/6a5aeba9-e92e-4dd6-9cf8-442a8efe99ec" />
-<img width="1918" height="976" alt="image" src="https://github.com/user-attachments/assets/361adcaa-96a4-4cbd-afd5-053bd73390f9" />
+<img width="1274" height="801" alt="server ssh running" src="https://github.com/user-attachments/assets/73f38f59-d4f5-49f3-80bc-1e67b0796d3e" />
+
+**Week 2 - User Management and Privileges**
+#Objective
+- Learning Linux user and group management
+- Configure user privileges using sudo
+- Verify access control using CLI
+
+#Tasks
+- Creating new users using 'adduser'
+- Creating groups using 'groupadd'
+- Verified sudo access
+
+#Commands Used
+- bash
+- add user testuser
+- groupadd devgroup
+- su - testuser
+
+#Evidence
+<img width="755" height="397" alt="add student1" src="https://github.com/user-attachments/assets/3bcf1edf-7fc3-4986-b95e-9126d8cb56a6" />
+<img width="1311" height="682" alt="student" src="https://github.com/user-attachments/assets/7955e1f3-3917-4843-8986-8700013a5fb5" />
+<img width="531" height="136" alt="student1" src="https://github.com/user-attachments/assets/7cf22023-277c-4762-b6fc-f54d56ee5b92" />
+
+#Reflection
+It helped me to understand how linux controls access and privileges using users, groups, and sudo. Managing permissions on the server improved my confident with system administration tasks.
+
