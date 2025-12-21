@@ -107,5 +107,40 @@ sudo systemctl status fail2ban
 sudo fail2ban-client status
 sudo fail2ban-client status sshd
 
+**# Week 6 – Performance Evaluation and Analysis**
+
+#Objective
+The objective of Week 6 was to evaluate the performance of a headless Linux server under different workloads and analyse operating system behaviour using quantitative data. Performance testing was conducted remotely via SSH from an Ubuntu Desktop workstation, ensuring all measurements reflected the server’s behaviour rather than the workstation system.
+
+The evaluation followed a structured methodology consisting of baseline measurement, workload testing, bottleneck identification, optimisation, and post-optimisation comparison.
+
+#Testing Methodology
+Performance testing was carried out in the following stages:
+
+1. Baseline performance measurement (idle system)
+2. CPU-intensive workload testing
+3. Memory-intensive workload testing
+4. Disk I/O performance testing
+5. Network performance testing
+6. Bottleneck identification
+7. Performance optimisation
+8. Re-testing and comparison
+All tests were executed on the server via SSH to maintain consistency and professional remote administration practices.
+
+#Baseline Performance (Idle System)
+Baseline measurements were collected to establish a reference point for comparison before applying any workload or optimisation.
+
+#Commands (on server via SSH):
+```bash
+uptime
+free -h
+df -h
+top
+
+#Evidence
+<img width="1378" height="622" alt="week   6" src="https://github.com/user-attachments/assets/4180d8fb-c61a-4b2e-bf18-5001258ad88e" />
+<img width="1087" height="797" alt="week 6" src="https://github.com/user-attachments/assets/e9379282-b7a9-4cf1-8295-c7b81b85aa7d" />
+<img width="1832" height="963" alt="week  6" src="https://github.com/user-attachments/assets/d9c145c7-1120-4f98-aaa4-f27ec9314766" />
+<img width="1882" height="882" alt="wk 6" src="https://github.com/user-attachments/assets/8d285629-dc5a-4c9a-b65d-a00c1e29bd80" />
 
 
