@@ -144,6 +144,26 @@ top
 <img width="1832" height="963" alt="week  6" src="https://github.com/user-attachments/assets/13bec0c5-7c9b-4e1e-b319-eff574258967" />
 <img width="1087" height="797" alt="week 6" src="https://github.com/user-attachments/assets/94691c74-4070-4cb2-8d8d-883e52a355b4" />
 
+**#Week -7 Network Security Assessment**
+
+To assess the network exposure of the server, a network scan was performed using **nmap**. This scan was executed from the Ubuntu Desktop workstation against the Ubuntu Server within the isolated VirtualBox network, in accordance with the coursework ethical guidelines.
+Initially, the `nmap` command was not available on the workstation, as it is not installed by default. The tool was installed manually before conducting the scan.
+
+#Installation of nmap (Workstation):
+bash
+sudo apt update
+sudo apt install -y nmap
+
+#Evidence
+<img width="1222" height="281" alt="week  7" src="https://github.com/user-attachments/assets/49ccfc0e-0397-4be4-b9c9-241e3e215f76" />
+<img width="1902" height="793" alt="week 7" src="https://github.com/user-attachments/assets/161492e0-e752-4cde-99f3-3f21fe3b7e6a" />
+<img width="1575" height="982" alt="we7" src="https://github.com/user-attachments/assets/f995439d-88ff-429f-8a2a-88198c9e85f2" />
+<img width="1580" height="877" alt="w7" src="https://github.com/user-attachments/assets/877301a9-4992-45dd-9739-42ed073773d6" />
+
+#Result: The scan results confirmed that only port 22 (SSH) was open on the server. No additional services were exposed to the network.This outcome validates the firewall configuration implemented in earlier weeks, where incoming connections were denied by default and SSH access was explicitly allowed only from the workstation IP address.
+
+#Used Of AI
+AI tools (ChatGPT) were used to assist with structuring explanations and improving clarity. All commands, configurations, screenshots, and analysis were implemented and verifiedon my own ubuntu system.
 
 
 
