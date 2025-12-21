@@ -14,6 +14,8 @@
 
 #Evidence
 <img width="1274" height="801" alt="server ssh running" src="https://github.com/user-attachments/assets/73f38f59-d4f5-49f3-80bc-1e67b0796d3e" />
+<img width="1697" height="678" alt="image" src="https://github.com/user-attachments/assets/84c21ed1-b3d4-46e2-b2d8-526c36b4d861" />
+
 
 **Week 2 - User Management and Privileges**
 #Objective
