@@ -107,6 +107,7 @@ sudo systemctl status fail2ban
 sudo fail2ban-client status
 sudo fail2ban-client status sshd
 
+
 **# Week 6 – Performance Evaluation and Analysis**
 
 #Objective
@@ -131,16 +132,18 @@ All tests were executed on the server via SSH to maintain consistency and profes
 Baseline measurements were collected to establish a reference point for comparison before applying any workload or optimisation.
 
 #Commands (on server via SSH):
-```bash
+bash
 uptime
 free -h
 df -h
 top
 
 #Evidence
-<img width="1378" height="622" alt="week   6" src="https://github.com/user-attachments/assets/4180d8fb-c61a-4b2e-bf18-5001258ad88e" />
-<img width="1087" height="797" alt="week 6" src="https://github.com/user-attachments/assets/e9379282-b7a9-4cf1-8295-c7b81b85aa7d" />
-<img width="1832" height="963" alt="week  6" src="https://github.com/user-attachments/assets/d9c145c7-1120-4f98-aaa4-f27ec9314766" />
-<img width="1882" height="882" alt="wk 6" src="https://github.com/user-attachments/assets/8d285629-dc5a-4c9a-b65d-a00c1e29bd80" />
+<img width="1378" height="622" alt="week   6" src="https://github.com/user-attachments/assets/cdbe2896-dfce-41ec-80e4-4191e0935a0b" />
+<img width="1882" height="882" alt="wk 6" src="https://github.com/user-attachments/assets/a8ab0f21-b14a-43d5-9816-197863ee2481" />
+<img width="1832" height="963" alt="week  6" src="https://github.com/user-attachments/assets/13bec0c5-7c9b-4e1e-b319-eff574258967" />
+<img width="1087" height="797" alt="week 6" src="https://github.com/user-attachments/assets/94691c74-4070-4cb2-8d8d-883e52a355b4" />
+
+
 
 
