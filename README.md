@@ -71,40 +71,17 @@ The server system runs without a graphical interface, enforcing command-line pro
 #user and privilage management
 To minimise security risks associated with direct root access, a non-root administrative user was created and granted sudo privileges. This follows the principle of least privilege and reduces the likelihood of accidental system-wide changes.
 
-#comands
-```bash
+#Comands
+bash
 sudo adduser adminuser
 sudo usermod -aG sudo adminuser
-groups adminuser
+group adminuser
 
 #Evidence
-<img width="1423" height="816" alt="wk 4" src="https://github.com/user-attachments/assets/88c9dede-7f14-456a-9f9b-c5cd9ba7547e" />
-<img width="1561" height="861" alt="w4" src="https://github.com/user-attachments/assets/54bc9ff2-7b68-45b1-9bdc-2c046fddb39d" />
-<img width="1665" height="851" alt="wke4" src="https://github.com/user-attachments/assets/4bf34e5f-af09-451f-9b24-ba6166683348" />
+<img width="1561" height="861" alt="w4" src="https://github.com/user-attachments/assets/2106c8de-4316-4c44-bb9f-9a819bd83502" />
+<img width="1423" height="816" alt="wk 4" src="https://github.com/user-attachments/assets/a8994e1c-d7ba-427e-af38-2eae4f480b0b" />
+<img width="1665" height="851" alt="wke4" src="https://github.com/user-attachments/assets/57832ba3-ea6a-4948-a3a7-2a735b454a6e" />
 
-**#Week - 5 Process Management**
-Objective
-The aim of Week 5 was to extend the foundational security implemented in Week 4 by deploying advanced security mechanisms and introducing automation for security verification and system monitoring. All configuration and administration tasks were performed remotely on a headless Ubuntu Server via SSH from an Ubuntu Desktop workstation, ensuring compliance with the coursework administrative constraints.
-
-# Mandatory Access Control – AppArmor
-Mandatory Access Control (MAC) was implemented using AppArmor. AppArmor restricts the actions applications can perform, even if they are compromised, providing an additional layer of defence beyond traditional file permissions.
-
-#Evidence
-<img width="1572" height="856" alt="week5" src="https://github.com/user-attachments/assets/70d7098c-90cc-4e6f-b9a5-e094b9106c14" />
-<img width="1626" height="863" alt="w5" src="https://github.com/user-attachments/assets/4e2cfbff-f2a5-4bd6-bf05-fbbc5e58a7b2" />
-<img width="1452" height="947" alt="wee5" src="https://github.com/user-attachments/assets/4a1f231e-c7b4-4fa1-844c-94017482f4b2" />
-<img width="1821" height="832" alt="we5" src="https://github.com/user-attachments/assets/7db35c15-a683-4081-b8a1-c8477c099669" />
-<img width="1722" height="872" alt="wk5" src="https://github.com/user-attachments/assets/cf4c40ef-45bf-4265-8fb4-a6ee6362d91e" />
-
-#Installation
-sudo apt install -y fail2ban
-sudo systemctl enable fail2ban
-sudo systemctl start fail2ban
-
-#Status Verification
-sudo systemctl status fail2ban
-sudo fail2ban-client status
-sudo fail2ban-client status sshd
 
 
 
