@@ -82,7 +82,30 @@ group adminuser
 <img width="1423" height="816" alt="wk 4" src="https://github.com/user-attachments/assets/a8994e1c-d7ba-427e-af38-2eae4f480b0b" />
 <img width="1665" height="851" alt="wke4" src="https://github.com/user-attachments/assets/57832ba3-ea6a-4948-a3a7-2a735b454a6e" />
 
+**#Week-5 Process Management**
 
+#Objective
+The aim of Week 5 was to extend the foundational security implemented in Week 4 by deploying advanced security mechanisms and introducing automation for security verification and system monitoring. All configuration and administration tasks were performed remotely on a headless Ubuntu Server via SSH from an Ubuntu Desktop workstation, ensuring compliance with the coursework administrative constraints.
+
+#Mandatory Access Control – AppArmor
+Mandatory Access Control (MAC) was implemented using AppArmor. AppArmor restricts the actions applications can perform, even if they are compromised, providing an additional layer of defence beyond traditional file permissions.
+
+#Evidence
+<img width="1626" height="863" alt="w5" src="https://github.com/user-attachments/assets/cc60090a-66de-40f3-bd5d-aa34eb94f1bc" />
+<img width="1821" height="832" alt="we5" src="https://github.com/user-attachments/assets/efe539c6-eadd-4c25-8c6f-faa8da119420" />
+<img width="1572" height="856" alt="week5" src="https://github.com/user-attachments/assets/d1130be1-c217-4078-abf2-4b1042d708a0" />
+<img width="1452" height="947" alt="wee5" src="https://github.com/user-attachments/assets/73a11b35-634a-4d75-85ef-aea96f9d2738" />
+<img width="1722" height="872" alt="wk5" src="https://github.com/user-attachments/assets/3ba035d4-eef5-4feb-b7c5-8a69bc956ce9" />
+
+#Installation
+sudo apt install -y fail2ban
+sudo systemctl enable fail2ban
+sudo systemctl start fail2ban
+
+#Status Verification
+sudo systemctl status fail2ban
+sudo fail2ban-client status
+sudo fail2ban-client status sshd
 
 
 
