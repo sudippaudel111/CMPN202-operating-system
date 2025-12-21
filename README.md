@@ -64,9 +64,9 @@ It helped me to understand how linux controls access and privileges using users,
 
 #objective
 The aim of Week 4 was to implement foundational security controls on a headless Linux server and demonstrate secure remote administration using SSH. All administrative tasks were performed remotely from a dedicated Ubuntu Desktop workstation via the command-line interface, in line with the coursework requirements.
-
 The server system runs without a graphical interface, enforcing command-line proficiency and reflecting real-world professional server administration practices.
-# User and privilage management
+
+#user and privilage management
 To minimise security risks associated with direct root access, a non-root administrative user was created and granted sudo privileges. This follows the principle of least privilege and reduces the likelihood of accidental system-wide changes.
 
 #comands
